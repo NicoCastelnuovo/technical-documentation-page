@@ -1,153 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-	background-color: #ffffff;
-	font-family: 'Raleway', sans-serif;
-	color: #000000;
-	font-size: 18px;
-	text-align: justify;
-	margin: 0;
-}
-main {
-	border-style: ;   /* !!!!! */
-	border-color: gray;
-  position: relative;
-	margin-left: 250px; /* uguale a width del nav bar */
-	padding: 30px;
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
 }
 
-header {
-	font-size: 27px;
-	font-weight: bold;
-}
 
 #title {
-	text-align: left;
-	padding: 30px;
-	background-color: #F05D5E;
+  font-weight: bold;
+  text-align: left;
+  padding: 30px;
+  background-color: #F05D5E;
   color: white;
 }
-
 section {
-	padding: 30px;
+  padding: 30px;
 }
 
 nav {
-	border-style: ;   /* !!!!! */
-	border-color: #F05D5E;
-	background-color: #0F7173;
-    position: fixed; /* fix the nav on the top basically, but than it becomes vertical with a high height, and a low width */
-    top: 0px;
-    left: 0px;
-    width: 280px;
-    height: 100%; /* barra laterale che corre per tutta la pagina */
-	overflow: scroll;
-	overflow-x: hidden;
+  border-color: #F05D5E;
+  background-color: #0F7173;
+  position: fixed; /* fix the nav on the top basically, but than it becomes vertical with a high height, and a low width */
+  top: 0px;
+  left: 0px;
+  width: 280px;
+  height: 100%; /* barra laterale che corre per tutta la pagina */
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-bottom: 12px;
 }
-
-
+main {
+  border-style: ;   /* !!!!! */
+  border-color: gray;
+  position: relative;
+  margin-left: 250px; /* uguale a width del nav bar */
+  padding: 30px;
+}
+h2 {
+  margin-bottom: 12px;;
+}
 ul {
-	list-style-type: none;
-	text-align: left;
-	padding: 30px;
+  list-style-type: none;
+  padding: 30px;
 }
 
 li {
-	padding: 0px 0px 15px 0px;
+  padding: 0px 0px 15px 0px;
 }
 
 section li {
-	margin-left: 50px;
+  margin-left: 50px;
 }
 
 a {
-	color: #ffffff;	
-	text-decoration: none;
-	font-size: 24px;
+  color: #ffffff;	
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .format-code {
-	background-color: #93EFF1;
-	font-size: 16px;
-	padding: 30px;
-	border-radius: 15px;
+  background-color: #93EFF1;
+  font-size: 16px;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 15px 0;
 }
 @keyframes animation1 {
-  from {
-    background-color: #4AE5E8;
-    color: black;
-  }
-  to {background-color: #F05D5E;
-  color: white
-  }
+from {
+  background-color: #4AE5E8;
+  color: black;
+}
+to {background-color: #F05D5E;
+color: white
+}
 }
 
 .example-1:hover {
-    background-color: #F05D5E;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    animation-name: animation1;
-    animation-duration: 2s;
+  background-color: #F05D5E;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  animation-name: animation1;
+  animation-duration: 2s;
 }
 
 @media (max-width: 800px) {
 body {
-  background-color: #ffffff;
-	text-align: justify;
-	margin: 0;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+background-color: #ffffff;
+  text-align: justify;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 nav {
-	background-color: #F05D5E;
-    position: static; /* fix the nav on the top basically, but than it becomes vertical with a high height, and a low width */
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-	}
-	
+  background-color: #F05D5E;
+  position: static;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+  
 main {
-	border: ;
-	
-    position: static;
-	margin-top: 0px;
-	margin-left: 0px;
-	padding: 0px;
-	max-width: 100%;
-	height: auto;
+  position: static;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  max-width: 100%;
+  height: auto;
 }
 ul {
-	list-style-type: none;
-	text-align: center;
-	padding: 0px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
 }
 
 li {
-	padding: 0px 0px 4px 0px;
+  padding: 0px 0px 4px 0px;
 }
 
 section li {
-	margin-left: 50px;
+  margin-left: 50px;
 }
 
 a {
-	color: #ffffff;	
-	text-decoration: none;
-	font-size: 24px;
+  color: #ffffff;	
+  text-decoration: none;
+  font-size: 24px;
 }
 
 header {
-	font-size: 27px;
-	font-weight: bold;
+  font-size: 27px;
+  font-weight: bold;
 }
 
 #title {
-	text-align: center;
-	padding: 15px;
-	background-color: #0F7173;
+  text-align: center;
+  padding: 15px;
+  background-color: #0F7173;
 }
 }
