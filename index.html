@@ -1,131 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Technical Documentation page - HTML & CSS</title>
-	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Raleway:wght@200&display=swap" rel="stylesheet"> 
-	<link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation page - HTML & CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Raleway:wght@200&display=swap" rel="stylesheet"> 
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-	
+    
 </body>
 </html>
   
 <body>
   <nav id="navbar">
-	<header id="title">
-		<h1>Introduction to Responsive Web Design</h1>
-	</header>
-	<ul>
-		<li><a class="nav-link" href="#Introduction">Introduction</a></li>
-		<li><a class="nav-link" href="#HTML">HTML</a></li>
-		<li><a class="nav-link" href="#CSS">CSS</a></li>
-		<li><a class="nav-link" href="#Applied_visual_design">Applied visual design</a></li>
-		<li><a class="nav-link" href="#Applied_Accessibility">Applied accessibility</a></li>
-		<li><a class="nav-link" href="#Responsive_Web_Design_Principles">Responsive Web Design Principles</a></li>
-	</ul>
+    <header id="title">
+        <h1>Introduction to Responsive Web Design</h1>
+    </header>
+    <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#HTML">HTML</a></li>
+        <li><a class="nav-link" href="#CSS">CSS</a></li>
+        <li><a class="nav-link" href="#Applied_visual_design">Applied visual design</a></li>
+        <li><a class="nav-link" href="#Applied_Accessibility">Applied accessibility</a></li>
+        <li><a class="nav-link" href="#Responsive_Web_Design_Principles">Responsive Web Design Principles</a></li>
+    </ul>
 </nav>
 <main id="main-doc">
-	<section class="main-section" id="Introduction">
-		<header>
-			<h2>Introduction</h2>
-		</header>
-		<p>This is an introduction to Responsive Web Design, the practice to create
-		responsive webpages, using the basic languages that developers use to build 
-		them:
-		<li>HTML (Hypertext Markup Language) for content</li>
-		<li>CSS (Cascading Style Sheets) for design</li>
-		You'll learn how to make webpages that respond to different screen sizes 
-		with CSS Flexbox, Grid and media-query.</p>
-	</section>
-	
-	<section class="main-section" id="HTML">
-	  <header>HTML</header>
-	  <p>HTML (Hypertext Markup Language) is a markup language that uses a 
-	  special syntax or notation to describe the structure of a webpage to the 
-	  browser. An HTML element is usually composed by:
-	  <li>A start tag</li>
-	  <li>A content, like a text</li>
-	  <li>An ending tag</li>
-	  Basically, the tags surround the referring content. There are a lot of tag,
-	  and each kind has a variety of attributes. There are also empty elements, 
-	  which have no closing tag, like the &lt;br&gt; element (which has also no 
-	  attributes) or the &lt;img&gt; element.</p>
-	  <code>
-	  <div class="format-code">
+    <section class="main-section" id="Introduction">
+        <header>
+            <h2>Introduction</h2>
+        </header>
+        <p>This is an introduction to Responsive Web Design, the practice to create
+        responsive webpages, using the basic languages that developers use to build 
+        them:
+        <li>HTML (Hypertext Markup Language) for content</li>
+        <li>CSS (Cascading Style Sheets) for design</li>
+        You'll learn how to make webpages that respond to different screen sizes 
+        with CSS Flexbox, Grid and media-query.</p>
+    </section>
+    
+    <section class="main-section" id="HTML">
+      <header>HTML</header>
+      <p>HTML (Hypertext Markup Language) is a markup language that uses a 
+      special syntax or notation to describe the structure of a webpage to the 
+      browser. An HTML element is usually composed by:
+      <li>A start tag</li>
+      <li>A content, like a text</li>
+      <li>An ending tag</li>
+      Basically, the tags surround the referring content. There are a lot of tag,
+      and each kind has a variety of attributes. There are also empty elements, 
+      which have no closing tag, like the &lt;br&gt; element (which has also no 
+      attributes) or the &lt;img&gt; element.</p>
+      <code>
+      <div class="format-code">
 &lt;h1&gt;This is an HTML example.&lt;/h1&gt;<br>
 &nbsp;&nbsp;&lt;p&gt;While 'h' in the last tags means 'heading','p' means 'paragraph'.&lt;/p&gt;</div>
-	  </code>
-	</section>
-	
-	<section class="main-section" id="CSS">
-	  <header>CSS</header>
-	  <p>CSS, or Cascading Style Sheets, tell the browser how to display the 
-	  text and other content that you write in HTML. With CSS, you can control 
-	  the color, font, size, spacing, and many other aspects of HTML elements.
-	  A CSS rule consist in: 
-	  <li>The <em>selector</em>, which points to the HTML element you want to style</li>
-	  <li>The <em>declaration</em> block, which contains properties and values</li>
-	  </p>
-	  <code>
-	  <div class="format-code">
+      </code>
+    </section>
+    
+    <section class="main-section" id="CSS">
+      <header>CSS</header>
+      <p>CSS, or Cascading Style Sheets, tell the browser how to display the 
+      text and other content that you write in HTML. With CSS, you can control 
+      the color, font, size, spacing, and many other aspects of HTML elements.
+      A CSS rule consist in: 
+      <li>The <em>selector</em>, which points to the HTML element you want to style</li>
+      <li>The <em>declaration</em> block, which contains properties and values</li>
+      </p>
+      <code>
+      <div class="format-code">
 selector {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;property: value;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;property: value;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;property: value;<br>
 }</div> 
-	  </code>
-	  <p>Here is an example of CSS code, that style the &lt;h1&gt; and 
-	  &lt;p&gt; elements with the described parameters.</p>
-	  <code>
-	  <div class="format-code">
+      </code>
+      <p>Here is an example of CSS code, that style the &lt;h1&gt; and 
+      &lt;p&gt; elements with the described parameters.</p>
+      <code>
+      <div class="format-code">
 h1, p {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;color: blue;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;font-size: 16px;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;text-align: center;<br>
 }</div> 
-	  </code>
-	  </section>
-	
-	<section class="main-section" id="Applied_visual_design">
-	  <header>Applied visual design</header>
-	  <p>Applied visual design is a combination of typography, color theory, 
-	  graphics, animation, page layout, and more to help deliver your unique 
-	  message. You have the possibility to format the text with bold, italic and
-	  other parameters, add shadows, change colors, positions, animations in a 
-	  range of infinite combinations.</p>
-	  <p>For example, try to pass the cursor over the text below.</p>
-	  <code>
-	  <div class="format-code example-1">
+      </code>
+      </section>
+    
+    <section class="main-section" id="Applied_visual_design">
+      <header>Applied visual design</header>
+      <p>Applied visual design is a combination of typography, color theory, 
+      graphics, animation, page layout, and more to help deliver your unique 
+      message. You have the possibility to format the text with bold, italic and
+      other parameters, add shadows, change colors, positions, animations in a 
+      range of infinite combinations.</p>
+      <p>For example, try to pass the cursor over the text below.</p>
+      <code>
+      <div class="format-code example-1">
 This is an example with <em>:hover</em> selector.
 By adding this selector in CSS to an element, when you pass over that element 
 with the cursor, it will change according to the style selected.</div>
-	  </code>
-	  <p>The following, is the CSS code that styles the element.</p>
-	  <code>
-	  <div class="format-code">
+      </code>
+      <p>The following, is the CSS code that styles the element.</p>
+      <code>
+      <div class="format-code">
 .example-1:hover {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;background-color: white;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;color: #4f4f46;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;font-size: 16px;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;text-align: center;<br>
 }</div>
-	  </code>
-	</section>
+      </code>
+    </section>
 
-	<section class="main-section" id="Applied_Accessibility">
-	  <header>Applied accessibility</header>
-	  <p>In web development, accessibility refers to web content and a UI 
-	  (user interface) that can be understood, navigated, and interacted with by 
-	  a broad audience. This includes people with visual, auditory, mobility, 
-	  or cognitive disabilities.</p>
-	  <p>The following, is a code that you can use to visually hidden an element 
-	  on the display, but make it accessible by the people which use a 
-	  <em>screen reader</em> device.</p>
-	  <code>
-	  <div class="format-code">
+    <section class="main-section" id="Applied_Accessibility">
+      <header>Applied accessibility</header>
+      <p>In web development, accessibility refers to web content and a UI 
+      (user interface) that can be understood, navigated, and interacted with by 
+      a broad audience. This includes people with visual, auditory, mobility, 
+      or cognitive disabilities.</p>
+      <p>The following, is a code that you can use to visually hidden an element 
+      on the display, but make it accessible by the people which use a 
+      <em>screen reader</em> device.</p>
+      <code>
+      <div class="format-code">
 .hidden {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;position: absolute;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;left: -10000px;<br>
@@ -134,20 +134,20 @@ with the cursor, it will change according to the style selected.</div>
 &nbsp;&nbsp;&nbsp;&nbsp;top: auto;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;overflow: hidden;<br>
 }</div>
-	  </code>
-	</section>
+      </code>
+    </section>
 
-	<section class="main-section" id="Responsive_Web_Design_Principles">
-	  <header>Responsive Web Design Principles</header>
-	  <p>There are many devices that can access the web, and they come in all 
-	  shapes and sizes. Responsive web design is the practice of designing 
-	  flexible websites that can respond to different screen sizes, 
-	  orientations, and resolutions.The tools that you can use to make 
-	  responsive a webpage are for example the CSS flexbox or the media query.</p>
-	  <p>For example, the next code apply that <em>body</em> style only for the 
-	  devices which have a viewport between 0 and 800px.</p>
-	  <code>
-	  <div class="format-code">
+    <section class="main-section" id="Responsive_Web_Design_Principles">
+      <header>Responsive Web Design Principles</header>
+      <p>There are many devices that can access the web, and they come in all 
+      shapes and sizes. Responsive web design is the practice of designing 
+      flexible websites that can respond to different screen sizes, 
+      orientations, and resolutions.The tools that you can use to make 
+      responsive a webpage are for example the CSS flexbox or the media query.</p>
+      <p>For example, the next code apply that <em>body</em> style only for the 
+      devices which have a viewport between 0 and 800px.</p>
+      <code>
+      <div class="format-code">
 @media (max-width: 800px) {<br>
 &nbsp;&nbsp;body {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;font-size: 21px;<br>
@@ -155,8 +155,8 @@ with the cursor, it will change according to the style selected.</div>
 &nbsp;&nbsp;&nbsp;&nbsp;background-color: olive;<br>
 }<br>
 }</div>
-	  </code>
-	</section>
+      </code>
+    </section>
   </main>  
 </body>
 </html>
